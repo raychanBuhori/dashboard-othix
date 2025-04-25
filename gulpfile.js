@@ -308,6 +308,7 @@ gulp.task("imgmin", function () {
 gulp.task("browserSync", function () {
   browsersync.init({
     server: "dist/",
+    open: false
   });
 });
 //  [ browser reload ] end
